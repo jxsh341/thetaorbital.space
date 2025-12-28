@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "/whitepaper"
+  to = "https://drive.google.com/file/d/1VpW3lq4thXFZ7WwIl0rXLSyqtXjpx1o7/view?usp=drive_link"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/deck"
+  to = "https://drive.google.com/file/d/YOUR_DECK_ID/view?usp=drive_link"
+  status = 302
+  force = true
