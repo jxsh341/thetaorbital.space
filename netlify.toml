@@ -1,11 +1,25 @@
+# Clean URLs → Direct PDFs
 [[redirects]]
   from = "/whitepaper"
-  to = "https://drive.google.com/file/d/1VpW3lq4thXFZ7WwIl0rXLSyqtXjpx1o7/view?usp=drive_link"
-  status = 302
+  to = "/whitepaper.pdf"
+  status = 200
   force = true
 
 [[redirects]]
   from = "/deck"
-  to = "https://drive.google.com/file/d/YOUR_DECK_ID/view?usp=drive_link"
+  to = "/deck.pdf"
+  status = 200
+  force = true
+
+# Download-only (optional)
+[[redirects]]
+  from = "/whitepaper/download"
+  to = "/whitepaper.pdf"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/deck/download"
+  to = "/deck.pdf"
   status = 302
   force = true
