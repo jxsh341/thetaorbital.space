@@ -1,25 +1,5 @@
-# Clean URLs → Direct PDFs
 [[redirects]]
   from = "/whitepaper"
   to = "/whitepaper.pdf"
   status = 200
-  force = true
-
-[[redirects]]
-  from = "/deck"
-  to = "/deck.pdf"
-  status = 200
-  force = true
-
-# Download-only (optional)
-[[redirects]]
-  from = "/whitepaper/download"
-  to = "/whitepaper.pdf"
-  status = 302
-  force = true
-
-[[redirects]]
-  from = "/deck/download"
-  to = "/deck.pdf"
-  status = 302
   force = true
