@@ -1,5 +1,0 @@
-[[redirects]]
-  from = "/whitepaper"
-  to = "/whitepaper.pdf"
-  status = 200
-  force = true
